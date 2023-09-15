@@ -19,7 +19,7 @@ header {
 }
 
 .logo img {
-    width: 50px; /* Passen Sie die Breite des Logos an Ihre Anforderungen an */
+    width: 50px;
     height: auto;
     margin-right: 10px;
 }
@@ -34,3 +34,21 @@ header {
 .home-button:hover {
     text-decoration: underline;
 }
+
+.zentriert{
+    margin-top: 30px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+}
+
+.quadrat { 
+    height: 750px; 
+    width: 500px; 
+    background-color: #61555541; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+ }
