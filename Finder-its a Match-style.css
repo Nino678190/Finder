@@ -36,18 +36,28 @@ body{
     align-content: center;
     margin-left: 500px;
     margin-top: 10px;
+    box-shadow: 4px 4px 7px red;
    
     border-bottom: red;
 
                
     
 }
+.homebutton{
+    text-decoration: none;
+    color: white; }
+.homebutton:hover{
+    text-decoration: underline;
+    color: lightgray;
+}
 
 .header{
-    background: linear-gradient(to right, black, red); /* Schwarzer-roter Verlauf */
-    color: white;
+    background: linear-gradient(to right, brown,red);
     padding: 5px 0;
     justify-content:space-between;
+    width: 1400px;
+    margin-left: 50px;
+    
 
 }
 .Profilbild{
