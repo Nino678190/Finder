@@ -10,6 +10,7 @@ header {
     color: white;
     padding: 25px 0;
     justify-content:space-between;
+    position: sticky;
 }
 
 .logo {
@@ -41,6 +42,7 @@ header {
     vertical-align: middle;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .quadrat { 
@@ -53,6 +55,17 @@ header {
     align-items: center;
     vertical-align: middle;
     align-content: center;
+    position: relative;
+ }
+
+ .login{
+    background-color: lightgray;
+    justify-content: center;
+    display: grid;
+    justify-content: space-between;
+    color: black;
+    display: inline-block;
+    border-radius: 15px;
  }
 
 .textarea{
