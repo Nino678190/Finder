@@ -54,3 +54,8 @@ header {
     vertical-align: middle;
     align-content: center;
  }
+
+.textarea{
+    width: 250px;
+    height: 50px;
+}
