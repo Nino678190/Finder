@@ -20,6 +20,6 @@ window.addEventListener("load",function(){
     window.setTimeout(() => {
         el.style.display="none";
         el2.style.display="none";
-    }, 8000);
+    }, 5000);
 })
 
