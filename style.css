@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: aqua;
+    background-color: gray;
 }
 
 header {
@@ -46,8 +46,9 @@ header {
 .quadrat { 
     height: 750px; 
     width: 500px; 
-    background-color: #61555541; 
+    background-color: lightgray; 
     justify-content: center;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     vertical-align: middle;
