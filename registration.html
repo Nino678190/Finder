@@ -19,18 +19,25 @@
             </div>
         </header>
             <form class="login">
-                <div><b>Gamertag</b></div><div><input type="text" required></div>
-                <div><b>Email</b></div><div><input type="email" required></div>
-                <div><b>Geburtstag</b></div><div><input type="date" required></div>
-                <div><b>Pronomen</b></div><div><input type="text"></div>
-                <div><b>Games</b></div><div><input type="text"></div>
-                <div><b>Foto</b></div><div><input type="file" accept="image/png, image/jpeg, image/jpg" multiple onchange="handleFiles(this.files)"></div>
+                <div><b>Gamertag</b></div><div><input type="text" required id="gametag"></div>
+                <div><b>Email</b></div><div><input type="email" required id="email"></div>
+                <div><b>Geburtstag</b></div><div><input type="date" required id="geburtsdatum"></div>
+                <div><b>Pronomen</b></div><div><input type="text" id="pronomen"></div>
+                <div><b>Games</b></div><div><input type="text" id="spiele"></div>
+                <div><b>Foto</b></div><div><input type="file" accept="image/png, image/jpeg, image/jpg" multiple5 id="alpakaavatar"></div>
                 <div><b>Passwort</b></div><div><input type="password" required name="password" id="password"></div>
                 <div><b>Passwort wiederholen</b></div><div><input type="password" required name="confirmPassword" id="confirmPassword"></div>
                 <div><b>Ich habe die <a href="AGB.html">AGB's</a> gelesen und akzeptiere sie</b></div><div><input type="checkbox" required></div>
                 <div><b>Ich habe die <a href="DSE.html">Datenschutzerklärung</a> gelesen und akzeptiere sie</b></div><div><input type="checkbox" required></div>
-                <div><input type="submit" onclick="ansValidation()"><a href="Mehr.html"></a></div>
+                <div><input type="submit" onclick="ansValidation()"><a href="index.html"></a></div>
             </form>
         </div>
+        <footer>
+            <div class="footer">
+                <a href="#"> AGB's</a>
+                <a href="#"> Datenschutz</a>
+                <a href="#"> Impressum</a>
+            </div>
+        </footer>
     </body>
 </html>

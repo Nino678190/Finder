@@ -85,3 +85,16 @@ header {
     width: 250px;
     height: 50px;
 }
+
+footer {
+    background: linear-gradient(to left, black, red);
+    color: white;
+    padding: 25px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px; 
+    align-items: center;
+    justify-content: center;
+}
