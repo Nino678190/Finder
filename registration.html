@@ -19,10 +19,16 @@
             </div>
         </header>
             <form class="login">
+                <div><b>Gamertag</b></div><div><input type="text" required></div>
                 <div><b>Email</b></div><div><input type="email" required></div>
+                <div><b>Geburtstag</b></div><div><input type="date" required></div>
+                <div><b>Pronomen</b></div><div><input type="text"></div>
+                <div><b>Games</b></div><div><input type="text"></div>
                 <div><b>Passwort</b></div><div><input type="password" required name="password" id="password"></div>
-                <div><input type="submit"><a href="index.html"></a></div>
-                <div><a href="registration.html">Registrieren</a></div>
+                <div><b>Passwort wiederholen</b></div><div><input type="password" required name="confirmPassword" id="confirmPassword"></div>
+                <div><b>Ich habe die <a href="AGB.html">AGB's</a> gelesen und akzeptiere sie</b></div><div><input type="checkbox" required></div>
+                <div><b>Ich habe die <a href="DSE.html">Datenschutzerklärung</a> gelesen und akzeptiere sie</b></div><div><input type="checkbox" required></div>
+                <div><input type="submit" onclick="ansValidation()"><a href="Mehr.html"></a></div>
             </form>
         </div>
     </body>
