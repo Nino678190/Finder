@@ -59,9 +59,12 @@ header {
  }
 
  .login{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 10px; 
     justify-content: center;
-    justify-content: space-between;
     align-items: center;
     color: black;
     border-radius: 15px;
