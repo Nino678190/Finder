@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, black, red); /* Schwarzer-roter Verlauf */
+    background: linear-gradient(to right, black, red);
     color: white;
     padding: 25px 0;
     justify-content:space-between;
