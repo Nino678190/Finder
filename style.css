@@ -69,9 +69,9 @@ header {
  .login{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 50px;
-    grid-row-gap: 10px; 
+    grid-row-gap: 20px; 
     justify-content: center;
     align-items: center;
     color: black;
