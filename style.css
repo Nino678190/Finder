@@ -47,8 +47,8 @@ header {
     color: black;
     border-radius: 15px;
     margin-top: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 500px;
+    margin-right: 550px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -144,6 +144,7 @@ div.no{
 }
 .Profilbild{
     border-radius: 100px;
-    margin-left: 650px;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 800px;
 }
