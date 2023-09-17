@@ -52,10 +52,14 @@ return console.error(err.message);
 console.log("Close the database connection.");
 });
 
-document.getElementById("avatar").value = avatar
-document.getElementById("gametag").value = gametag
-document.getElementById("pronomen").value = pronomen
-document.getElementById("Spiele").value = spiele
+GLOBAL.document = new JSDOM("index.html").window.document;
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+
+//document.getElementById("avatar").value = avatar
+//document.getElementById("gametag").value = gametag
+//document.getElementById("pronomen").value = pronomen
+//document.getElementById("Spiele").value = spiele
 
 /* db.transaction(function (tx) {
     tx.executeSql('CREATE TABLE IF NOT EXISTS USER(' +
