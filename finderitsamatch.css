@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+    position: relative;
+}
+
+.gif{
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.spacer{
+    position: absolute;
+    background-color: white;
+    height: 100vw;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Unterhaltung{
+    border-radius: 10px;
+    box-shadow: 3px 3px 7.5px brown;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 10px; 
+    height: 600px; 
+    width: 500px; 
+    background-color: lightgray; 
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+    margin-left: 700px;
+    margin-top: 10px;
+    border-bottom: red;
+}
+
+.homebutton{
+    text-decoration: none;
+    color: white; }
+
+.homebutton:hover{
+    text-decoration: underline;
+    color: lightgray;
+}
+
+.header{
+    background: linear-gradient(to right, brown,red);
+    padding: 5px 0;
+    justify-content:space-between;
+    width: auto;
+}
+
+.Profilbild{
+    border-radius: 100px;
+}
