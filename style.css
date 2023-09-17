@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, brown, red);
+    background: linear-gradient(to right, rgb(250, 98, 98), red);
     color: white;
     padding: 25px 0;
     justify-content:space-between;
@@ -44,6 +44,8 @@ header {
 
 .zentriert{
     background-color: lightgray;
+    color: black;
+    border-radius: 15px;
     margin-top: 20px;
     margin-left: 300px;
     margin-right: 300px;
