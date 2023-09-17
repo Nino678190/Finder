@@ -12,6 +12,7 @@ body{
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
 .spacer{
     position: absolute;
     background-color: white;
@@ -22,6 +23,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .Unterhaltung{
     border-radius: 10px;
     box-shadow: 3px 3px 7.5px brown;
@@ -51,7 +53,8 @@ body{
 
 .homebutton{
     text-decoration: none;
-    color: white; }
+    color: white;
+}
 
 .homebutton:hover{
     text-decoration: underline;
