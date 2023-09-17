@@ -18,6 +18,12 @@ body{
     left: 0;
     top: 0;
 }
+.Unterhaltung{
+    border-radius: 10px;
+    box-shadow: 3px 3px 7.5px brown;
+    margin-top: 50px;
+    margin-left: 5px;
+}
 
 .pic{
     display: grid;
