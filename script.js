@@ -20,6 +20,31 @@ function createUserTable(){
     var id6 = crypto.randomUUID()
 }
 
+const sqlite3 = require('sqlite3').verbose();
+
+let db = new sqlite3.Database('FinderDB.db', (err) => {
+if (err) {
+return console.error(err.message);
+}
+console.log("Connected to the FinderDB SQLite database.");
+});
+
+db.all("SELECT * FROM User Order By random() Limit 1", [], (err, rows) => {
+if (err) {
+throw err;
+}
+rows.forEach((row) => {
+console.log(row);
+});
+});
+
+db.close((err) => {
+if (err) {
+return console.error(err.message);
+}
+console.log("Close the database connection.");
+});
+
 /* db.transaction(function (tx) {
     tx.executeSql('CREATE TABLE IF NOT EXISTS USER(' +
     '"id" INTEGER NOT NULL UNIQUE PRIMARY KEY,' +
