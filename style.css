@@ -100,7 +100,7 @@ header {
 }
 
 footer {
-    background: linear-gradient(to left, black, red);
+    background: linear-gradient(to right, black, red);
     color: white;
     padding: 25px 0;
     display: grid;
