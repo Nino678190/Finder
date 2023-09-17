@@ -120,6 +120,9 @@ div.no{
 }
 .DislikeButton{
     border-radius: 100px;
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
 }
 .DislikeIMG{
     border-radius: 100px;
@@ -130,9 +133,15 @@ div.no{
     border-radius: 100px;
     height: 100px;
     width: 100px;
+    margin-right: 50px;
 }
 .WowIMG{
     border-radius: 100px;
     height: 100px;
     width: 100px;
+}
+.Profilbild{
+    border-radius: 100px;
+    margin-left: 650px;
+    margin-top: 10px;
 }

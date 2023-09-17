@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" type="image/x-icon" href="art.png">
-        <script src="script.js"></script>
+        <script src="Script-users.js"></script>
         <title>
             Finder
         </title>
@@ -18,16 +18,30 @@
                 <a href="login.html">Login</a>
             </div>
         </header>
+        <img class="Profilbild" src="Alpaka.jpg" alt="" height="200px" width="200px">
         <div class="zentriert">
+            
+
             <ul id="avatar"></ul>
             <ul id="gametag"></ul>
+            
+
+            <div>Gamertag</div> 
+            <div><input type="text" id="gamertag" readonly value="Tobi"></div>
+         
+            <div>Lieblingsgame</div>
+            <div><input type="text" id="lieblingsgame" readonly value="er/ihm"></div>
+            
+            <div>alter</div>
+            <div><input type="text" id="alter" readonly value="16"></div>
+
             <div class="no" >
-                <button class="DislikeButton">
+                <button class="DislikeButton" onclick="onButtonClicked()">
                     <img class="DislikeIMG" src="dislike.png" alt="Der nein button um jemanden weg zu wischen">
                 </button>
             </div>
             <div class="wow">
-                <button class="WowButton">
+                <button class="WowButton"  onclick="onButtonClicked()">
                     <img class="WowIMG" src="Wow.png" alt="Der Wow button wenn man gerne ein Match mit demjanigen hätte">
                 </button>
             </div>

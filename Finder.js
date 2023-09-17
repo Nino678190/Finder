@@ -13,6 +13,10 @@ const hobbies = user.hobbies
 const beschreibung = user.hobbies*/
 
 
+ let index = 0 
+
+
+
 window.addEventListener("load",function(){
     const el=document.getElementById("Animation");
     const el2=document.querySelector(".spacer"); 
@@ -21,5 +25,12 @@ window.addEventListener("load",function(){
         el.style.display="none";
         el2.style.display="none";
     }, 5000);
+
+    document.getElementById("gamertag").value = users[index].gamertag
+    document.getElementById("alter").value = users[index].alter
+    document.getElementById("lieblingsgame").value = users[index].LieblingsGames
+
 })
+
+
 
