@@ -13,4 +13,3 @@
 ## Wer sind unsere Zielgruppen?
 - Leidenschaftlich Gamer zwischen 12 und 18 Jahren
 
-Autor: Toni Alfeo
