@@ -39,3 +39,4 @@ const onButtonClicked = function () {
     document.getElementById("alter").value = users[index].alter
     document.getElementById("lieblingsgame").value = users[index].LieblingsGames
 }
+
