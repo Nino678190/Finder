@@ -8,6 +8,7 @@ body {
     padding: 0;
     background-color: gray;
     font-family: "NotoSans";
+    position: relative;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
     padding: 25px 0;
     justify-content:space-between;
     position: sticky;
+    width: auto;
 }
 
 .logo {
@@ -40,6 +42,7 @@ header {
 
 .home-button:hover {
     text-decoration: underline;
+    color: lightgray;
 }
 
 .zentriert{
@@ -105,8 +108,7 @@ footer {
     grid-template-rows: 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 0px; 
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
 }
 
 div.wow{
@@ -201,4 +203,52 @@ div.no{
     width: 230px;
     border-radius: 5px;
     background: #1d2021;
+}
+
+.pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 10px; 
+    height: 600px; 
+    width: 500px; 
+    background-color: lightgray; 
+    justify-content: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+    margin-left: 700px;
+    margin-top: 10px;
+    border-bottom: red;
+}
+
+.Unterhaltung{
+    border-radius: 10px;
+    box-shadow: 3px 3px 7.5px brown;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.spacer{
+    position: absolute;
+    background-color: white;
+    height: 100vw;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gif{
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
