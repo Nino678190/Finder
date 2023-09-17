@@ -155,12 +155,19 @@ div.no{
     margin-left: 300px;
     margin-right: 300px;
     background-color: lightgray;
-    height: 800px;
+    height: 50px;
 }
 
 .chatbild{
     width: 50px;
     height: 50px;
+}
+
+.chatraum{
+    height: 700px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: lightgrey;
 }
 
 .textchat{
@@ -173,4 +180,15 @@ div.no{
     background-color: lightgray;
     margin-left: 300px;
     margin-right: 300px;
+}
+
+.chatunten{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: lightgray;
+    color: black;
 }
