@@ -184,11 +184,19 @@ div.no{
 
 .chatunten{
     height: 50px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 15px; 
     flex-direction: row;
     margin-left: 300px;
     margin-right: 300px;
     background-color: lightgray;
     color: black;
+}
+
+.cschreib{
+    height: 35px;
+    width: 230px;
 }
