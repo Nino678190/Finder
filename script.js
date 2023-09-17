@@ -9,7 +9,10 @@ function ansValidation() {
     }
 }
 
-//var db=openDatabase('mydb', '1.0', 'my first database', 2 * 1024 * 1024);
+let gametag = ""
+let avatar = ""
+let pronomen = ""
+let spiele = ""
 
 function createUserTable(){
     var id1 = crypto.randomUUID()
@@ -34,6 +37,10 @@ if (err) {
 throw err;
 }
 rows.forEach((row) => {
+    gametag = row.gametag
+    avatar = row.avatar
+    pronomen = row.pronomen
+    spiele = row.Spiele
 console.log(row);
 });
 });
@@ -44,6 +51,11 @@ return console.error(err.message);
 }
 console.log("Close the database connection.");
 });
+
+document.getElementById("avatar").value = avatar
+document.getElementById("gametag").value = gametag
+document.getElementById("pronomen").value = pronomen
+document.getElementById("Spiele").value = spiele
 
 /* db.transaction(function (tx) {
     tx.executeSql('CREATE TABLE IF NOT EXISTS USER(' +
