@@ -61,11 +61,9 @@ body{
     background: linear-gradient(to right, brown,red);
     padding: 5px 0;
     justify-content:space-between;
-    width: 1400px;
-    margin-left: 50px;
-    
-
+    width: auto;
 }
+
 .Profilbild{
     border-radius: 100px;
 }
