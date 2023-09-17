@@ -109,4 +109,23 @@ div.wow{
 
 div.no{
     color: black;
+    
+}
+.DislikeButton{
+    border-radius: 100px;
+}
+.DislikeIMG{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+.WowButton{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+.WowIMG{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
 }
