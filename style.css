@@ -104,4 +104,9 @@ div.wow{
     display: flex;
     text-align: left;
     justify-content: right;
+    color: black;
+}
+
+div.no{
+    color: black;
 }
