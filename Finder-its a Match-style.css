@@ -18,6 +18,8 @@ body{
     width: 100vw;
     left: 0;
     top: 0;
+    display: flex;
+    justify-content: space-between;
 }
 .Unterhaltung{
     border-radius: 10px;
@@ -41,7 +43,7 @@ body{
     align-items: center;
     vertical-align: middle;
     align-content: center;
-    margin-left: 500px;
+    margin-left: 700px;
     margin-top: 10px;
     
    
