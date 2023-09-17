@@ -2,7 +2,6 @@ function ansValidation() {
     var passValue = document.getElementById("password").value
     var confpassValue = document.getElementById("confirmPassword").value
     if (passValue === confpassValue) {
-        window.alert("Das hat geklappt");
         return true;
     } else {
         window.alert("Passwort stimmt nicht überein");
@@ -10,7 +9,7 @@ function ansValidation() {
     }
 }
 
-var db=openDatabase('mydb', '1.0', 'my first database', 2 * 1024 * 1024);
+//var db=openDatabase('mydb', '1.0', 'my first database', 2 * 1024 * 1024);
 
 function createUserTable(){
     var id1 = crypto.randomUUID()
@@ -19,9 +18,9 @@ function createUserTable(){
     var id4 = crypto.randomUUID()
     var id5 = crypto.randomUUID()
     var id6 = crypto.randomUUID()
+}
 
-
-db.transaction(function (tx) {
+/* db.transaction(function (tx) {
     tx.executeSql('CREATE TABLE IF NOT EXISTS USER(' +
     '"id" INTEGER NOT NULL UNIQUE PRIMARY KEY,' +
     '"gametag" TEXT NOT NULL,' +
@@ -44,4 +43,4 @@ db.transaction(function (tx) {
 
 };
 
-
+*/
