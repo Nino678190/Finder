@@ -87,6 +87,13 @@ header {
     height: 50px;
 }
 
+
+.regi{
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+}
+
 footer {
     background: linear-gradient(to left, black, red);
     color: white;

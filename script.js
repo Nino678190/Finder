@@ -2,7 +2,6 @@ function ansValidation() {
     var passValue = document.getElementById("password").value
     var confpassValue = document.getElementById("confirmPassword").value
     if (passValue === confpassValue) {
-        window.alert("Das hat geklappt");
         return true;
     } else {
         window.alert("Passwort stimmt nicht überein");
@@ -10,7 +9,7 @@ function ansValidation() {
     }
 }
 
-var db=openDatabase('mydb', '1.0', 'my first database', 2 * 1024 * 1024);
+//var db=openDatabase('mydb', '1.0', 'my first database', 2 * 1024 * 1024);
 
 function createUserTable(){
     var id1 = crypto.randomUUID()
@@ -19,9 +18,34 @@ function createUserTable(){
     var id4 = crypto.randomUUID()
     var id5 = crypto.randomUUID()
     var id6 = crypto.randomUUID()
+}
 
+const sqlite3 = require('sqlite3').verbose();
 
-db.transaction(function (tx) {
+let db = new sqlite3.Database('FinderDB.db', (err) => {
+if (err) {
+return console.error(err.message);
+}
+console.log("Connected to the FinderDB SQLite database.");
+});
+
+db.all("SELECT * FROM User Order By random() Limit 1", [], (err, rows) => {
+if (err) {
+throw err;
+}
+rows.forEach((row) => {
+console.log(row);
+});
+});
+
+db.close((err) => {
+if (err) {
+return console.error(err.message);
+}
+console.log("Close the database connection.");
+});
+
+/* db.transaction(function (tx) {
     tx.executeSql('CREATE TABLE IF NOT EXISTS USER(' +
     '"id" INTEGER NOT NULL UNIQUE PRIMARY KEY,' +
     '"gametag" TEXT NOT NULL,' +
@@ -44,4 +68,4 @@ db.transaction(function (tx) {
 
 };
 
-
+*/
