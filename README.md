@@ -1,4 +1,4 @@
-# Finder
+# Finder - Tinder nur für Kinder
 ## Wozu ist Finder da?
 - Um freunde mit selben Interessen zu finden
 - Damit man sich vernetzen kann
