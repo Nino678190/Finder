@@ -12,10 +12,7 @@ const hobbies = user.hobbies
 
 const beschreibung = user.hobbies*/
 
-
  let index = 0 
-
-
 
 window.addEventListener("load",function(){
     const el=document.getElementById("Animation");
