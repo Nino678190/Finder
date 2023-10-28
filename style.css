@@ -251,3 +251,8 @@ div.no{
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
+.chatname{
+    background-color: lightgray;
+    text-decoration: none;
+}
