@@ -14,7 +14,7 @@ body {
 header {
     background: linear-gradient(to right, rgb(0, 0, 0), red);
     color: white;
-    padding: 25px 0;
+    padding: 1.5625rem 0;
     justify-content:space-between;
     width: auto;
 }
@@ -22,21 +22,21 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     justify-content:space-between;
 }
 
 .logo img {
-    width: 50px;
+    width: 3.125rem;
     height: auto;
-    margin-right: 10px;
+    margin-right: .625rem;
 }
 
 .home-button {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .home-button:hover {
@@ -47,23 +47,23 @@ header {
 .zentriert{
     background-color: lightgray;
     color: black;
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-left: 500px;
-    margin-right: 550px;
+    border-radius: .9375rem;
+    margin-top: 1.25rem;
+    margin-left: 31.25rem;
+    margin-right: 34.375rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 15px;
+    grid-column-gap: 3.125rem;
+    grid-row-gap: .9375rem;
 }
 
 .quadrat { 
-    height: 750px; 
-    width: 500px; 
+    height: 46.875rem; 
+    width: 31.25rem; 
     background-color: lightgray; 
     justify-content: center;
-    border-radius: 10px;
+    border-radius: .625rem;
     display: flex;
     align-items: center;
     vertical-align: middle;
@@ -75,38 +75,38 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 20px; 
+    grid-column-gap: 3.125rem;
+    grid-row-gap: 1.25rem; 
     justify-content: center;
     align-items: center;
     color: black;
-    border-radius: 15px;
-    margin-left: 300px;
-    margin-right: 300px;
+    border-radius: .9375rem;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
     background-color: lightgray;
  }
 
 .textarea{
-    width: 250px;
-    height: 50px;
+    width: 15.625rem;
+    height: 3.125rem;
 }
 
 
 .regi{
-    border-radius: 10px;
-    height: 25px;
-    width: 300px;
+    border-radius: .625rem;
+    height: 1.5625rem;
+    width: 18.75rem;
 }
 
 footer {
     background: linear-gradient(to right, black, red);
     color: white;
-    padding: 25px 0;
+    padding: 1.5625rem 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 0px; 
+    grid-column-gap: 3.125rem;
+    grid-row-gap: 0rem; 
     flex-direction: row;
 }
 
@@ -122,85 +122,85 @@ div.no{
     
 }
 .DislikeButton{
-    border-radius: 100px;
-    margin-left: 50px;
-    height: 100px;
-    width: 100px;
+    border-radius: 6.25rem;
+    margin-left: 3.125rem;
+    height: 6.25rem;
+    width: 6.25rem;
 }
 .DislikeIMG{
-    border-radius: 100px;
-    height: 100px;
-    width: 100px;
+    border-radius: 6.25rem;
+    height: 6.25rem;
+    width: 6.25rem;
 }
 .WowButton{
-    border-radius: 100px;
-    height: 100px;
-    width: 100px;
-    margin-right: 50px;
+    border-radius: 6.25rem;
+    height: 6.25rem;
+    width: 6.25rem;
+    margin-right: 3.125rem;
 }
 .WowIMG{
-    border-radius: 100px;
-    height: 100px;
-    width: 100px;
+    border-radius: 6.25rem;
+    height: 6.25rem;
+    width: 6.25rem;
 }
 .Profilbild{
-    border-radius: 100px;
+    border-radius: 6.25rem;
     display: flex;
     justify-content: center;
-    margin-left: 800px;
+    margin-left: 50rem;
 }
 
 .chatoben{
     display: flex;
     justify-content: space-between;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
     background-color: lightgray;
-    height: 50px;
+    height: 3.125rem;
 }
 
 .chatbild{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .chatraum{
-    height: 700px;
-    margin-left: 300px;
-    margin-right: 300px;
+    height: 43.75rem;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
     background-color: lightgrey;
 }
 
 .textchat{
-    width: 300px;
-    height: 25px;
+    width: 18.75rem;
+    height: 1.5625rem;
     display: flex;
     color: black;
     justify-content: space-between;
     flex-direction: row;
     background-color: lightgray;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
 }
 
 .chatunten{
-    height: 50px;
+    height: 3.125rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 25px;
-    grid-row-gap: 15px; 
+    grid-column-gap: 1.5625rem;
+    grid-row-gap: .9375rem; 
     flex-direction: row;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
     background-color: lightgray;
     color: black;
 }
 
 .cschreib{
-    height: 35px;
-    width: 230px;
-    border-radius: 5px;
+    height: 2.1875rem;
+    width: 14.375rem;
+    border-radius: .3125rem;
     background: #1d2021;
     color: white;
 }
@@ -209,27 +209,27 @@ div.no{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 10px; 
-    height: 600px; 
-    width: 500px; 
+    grid-column-gap: 3.125rem;
+    grid-row-gap: .625rem; 
+    height: 37.5rem; 
+    width: 31.25rem; 
     background-color: lightgray; 
     justify-content: center;
-    border-radius: 10px;
+    border-radius: .625rem;
     display: flex;
     align-items: center;
     vertical-align: middle;
     align-content: center;
-    margin-left: 700px;
-    margin-top: 10px;
+    margin-left: 43.75rem;
+    margin-top: .625rem;
     border-bottom: red;
 }
 
 .Unterhaltung{
-    border-radius: 10px;
-    box-shadow: 3px 3px 7.5px brown;
-    margin-top: 50px;
-    margin-left: 5px;
+    border-radius: .625rem;
+    box-shadow: .1875rem .1875rem .4688rem brown;
+    margin-top: 3.125rem;
+    margin-left: .3125rem;
 }
 
 .spacer{
@@ -247,7 +247,7 @@ div.no{
     height: 100vh;
     width: auto;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);

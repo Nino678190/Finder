@@ -7,7 +7,7 @@ body{
     height: 100vh;
     width: auto;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -25,29 +25,29 @@ body{
 }
 
 .Unterhaltung{
-    border-radius: 10px;
-    box-shadow: 3px 3px 7.5px brown;
-    margin-top: 50px;
-    margin-left: 5px;
+    border-radius: .625rem;
+    box-shadow: .1875rem .1875rem .4688rem brown;
+    margin-top: 3.125rem;
+    margin-left: .3125rem;
 }
 
 .pic{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 10px; 
-    height: 600px; 
-    width: 500px; 
+    grid-column-gap: 3.125rem;
+    grid-row-gap: .625rem; 
+    height: 37.5rem; 
+    width: 31.25rem; 
     background-color: lightgray; 
     justify-content: center;
-    border-radius: 10px;
+    border-radius: .625rem;
     display: flex;
     align-items: center;
     vertical-align: middle;
     align-content: center;
-    margin-left: 700px;
-    margin-top: 10px;
+    margin-left: 43.75rem;
+    margin-top: .625rem;
     border-bottom: red;
 }
 
@@ -63,11 +63,11 @@ body{
 
 .header{
     background: linear-gradient(to right, brown,red);
-    padding: 5px 0;
+    padding: .3125rem 0;
     justify-content:space-between;
     width: auto;
 }
 
 .Profilbild{
-    border-radius: 100px;
+    border-radius: 6.25rem;
 }
