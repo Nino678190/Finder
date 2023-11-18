@@ -1,7 +1,8 @@
-body{
+/*body{
     background-color: white;
     position: relative;
 }
+
 
 .gif{
     height: 100vh;
@@ -23,6 +24,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 
 .Unterhaltung{
     border-radius: .625rem;
@@ -71,3 +73,4 @@ body{
 .Profilbild{
     border-radius: 6.25rem;
 }
+*/

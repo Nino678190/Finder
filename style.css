@@ -39,7 +39,7 @@ header {
     font-size: 1.125rem;
 }
 
-.home-button:hover {
+.home-button:hover{
     text-decoration: underline;
     color: lightgray;
 }
@@ -256,4 +256,23 @@ div.no{
 .chatname{
     background-color: lightgray;
     text-decoration: none;
+}
+
+.profilbildm{
+    border-radius: 6.25rem;
+}
+
+.kontakt{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 3.125rem;
+    grid-row-gap: 1.25rem; 
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: .9375rem;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
+    background-color: lightgray;
 }
