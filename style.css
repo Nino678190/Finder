@@ -147,7 +147,8 @@ div.no{
     border-radius: 6.25rem;
     display: flex;
     justify-content: center;
-    margin-left: 50rem;
+    align-items: center;
+    margin-left: 50%;
 }
 
 .chatoben{
@@ -268,6 +269,7 @@ div.no{
     grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 3.125rem;
     grid-row-gap: 1.25rem; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: black;
